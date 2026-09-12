@@ -85,16 +85,12 @@
   .gallery .tile {
     aspect-ratio: 1;
     border-radius: 16px;
-    background: linear-gradient(135deg, var(--coral-100), var(--coral-50));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--coral-700);
-    font-size: 13px;
-    font-weight: 600;
-    text-align: center;
-    padding: 12px;
-    border: 2px dashed var(--coral-300);
+    overflow: hidden;
+  }
+  .gallery .tile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .events-band { background: rgba(178,138,79,0.12); }
@@ -145,12 +141,12 @@
 
   <section class="center">
     <h2>A peek at the studio</h2>
-    <p class="lead">Real photos coming soon — swap these tiles for your own studio shots and finished work.</p>
+    <p class="lead">A few moments from our workshops — see more on Instagram.</p>
     <div class="gallery">
-      <div class="tile">Add photo</div>
-      <div class="tile">Add photo</div>
-      <div class="tile">Add photo</div>
-      <div class="tile">Add photo</div>
+      <div class="tile"><img src="gallery/studio-table.jpg" alt="Workshop table set up at Al-Marsam" style="object-position: 50% 65%;"></div>
+      <div class="tile"><img src="gallery/studio-vase.jpg" alt="Hand-painted vase from a workshop" style="object-position: bottom;"></div>
+      <div class="tile"><img src="gallery/studio-markers.jpg" alt="Colorful paint markers at the studio" style="object-position: bottom;"></div>
+      <div class="tile"><img src="gallery/studio-leaf.jpg" alt="Studio corner at Al-Marsam"></div>
     </div>
   </section>
 
