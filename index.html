@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Al-Marsam | Creative Art &amp; Fun Moments</title>
+<meta name="description" content="Painting workshops for kids and adults in Doha, Qatar, by Amna Badawi. Book a class, see upcoming events, and follow along on Instagram.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Inter:wght@400;500;600&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream: #f2efe8;
+    --coral-50: #fdf0ec;
+    --coral-100: #fbdccf;
+    --coral-300: #f5a488;
+    --coral-500: #e8492d;
+    --coral-700: #b83a22;
+    --tan-500: #b28a4f;
+    --tan-700: #8a6a3d;
+    --ink: #2b2420;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: 'Inter', Arial, sans-serif;
+  }
+  h1, h2, h3, .display { font-family: 'Baloo 2', Arial, sans-serif; font-weight: 700; }
+  .script { font-family: 'Caveat', cursive; }
+  a { text-decoration: none; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+  header.hero {
+    background: var(--coral-50);
+    text-align: center;
+    padding: 64px 24px 56px;
+  }
+  header.hero img { width: 100%; max-width: 420px; height: auto; }
+  header.hero p.tagline {
+    color: rgba(43,36,32,0.7);
+    max-width: 480px;
+    margin: 8px auto 32px;
+  }
+  .cta-row {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .btn {
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-primary {
+    background: var(--coral-500);
+    color: white;
+    box-shadow: 0 4px 14px rgba(232,73,45,0.35);
+  }
+  .btn-primary:hover { background: var(--coral-700); }
+  .btn-outline {
+    background: transparent;
+    color: var(--coral-700);
+    border: 2px solid var(--coral-500);
+  }
+  .btn-outline:hover { background: var(--coral-100); }
+
+  section { padding: 56px 24px; }
+  section h2 { font-size: 26px; color: var(--coral-700); margin-bottom: 8px; }
+  section .lead { color: rgba(43,36,32,0.65); max-width: 560px; margin: 0 auto 32px; }
+  .center { text-align: center; }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+    margin-top: 8px;
+  }
+  .gallery .tile {
+    aspect-ratio: 1;
+    border-radius: 16px;
+    background: linear-gradient(135deg, var(--coral-100), var(--coral-50));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--coral-700);
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    padding: 12px;
+    border: 2px dashed var(--coral-300);
+  }
+
+  .events-band { background: rgba(178,138,79,0.12); }
+
+  footer {
+    background: var(--coral-700);
+    color: var(--coral-50);
+    text-align: center;
+    padding: 40px 24px;
+  }
+  footer .socials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 16px 0;
+  }
+  footer .socials a { color: white; font-weight: 600; }
+  footer .fine {
+    font-size: 13px;
+    color: rgba(255,255,255,0.6);
+    margin-top: 16px;
+  }
+
+  /* EDIT THESE TWO LINKS — see comments below */
+</style>
+</head>
+<body>
+
+  <header class="hero">
+    <img src="logo.jpg" alt="Al-Marsam — by Amna Badawi">
+    <p class="tagline">
+      Painting workshops for kids and adults in Doha. Join a class, come to
+      an event, or just say hi on Instagram.
+    </p>
+    <div class="cta-row">
+      <!--
+        EDIT ME: replace href="#" below with your real Tap Payments
+        Payment Link once you create one from the Tap dashboard.
+      -->
+      <a class="btn btn-primary" href="#" target="_blank" rel="noopener">
+        Book &amp; Pay
+      </a>
+      <a class="btn btn-outline" href="https://www.instagram.com/almrsm.qatar/" target="_blank" rel="noopener">
+        Follow on Instagram
+      </a>
+    </div>
+  </header>
+
+  <section class="center">
+    <h2>A peek at the studio</h2>
+    <p class="lead">Real photos coming soon — swap these tiles for your own studio shots and finished work.</p>
+    <div class="gallery">
+      <div class="tile">Add photo</div>
+      <div class="tile">Add photo</div>
+      <div class="tile">Add photo</div>
+      <div class="tile">Add photo</div>
+    </div>
+  </section>
+
+  <section class="events-band center">
+    <h2>Book your spot</h2>
+    <p class="lead">
+      DM us on Instagram to ask about class times, or use the button above
+      to pay directly and reserve a spot.
+    </p>
+    <p class="script" style="font-size:22px; color:var(--tan-700);">
+      see you at the easel :)
+    </p>
+  </section>
+
+  <footer>
+    <h3 class="display" style="color:white; margin-bottom:4px;">Al-Marsam</h3>
+    <p style="margin:0; color:rgba(255,255,255,0.85);">Doha, Qatar</p>
+    <div class="socials">
+      <a href="https://www.instagram.com/almrsm.qatar/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+    <p class="fine">
+      This is a temporary landing page while the full booking site is finished.
+    </p>
+  </footer>
+
+</body>
+</html>
